@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: 👑ᵛ͢ᵎᵖ𝄟⏤͟͟͞͞⃝🇮🇳𝐋𝐄𝐆𝐄𝐍𝐃◄⏤͟͞❀͢❱ ⃟𝐑𝐀𝐉༽༎͢ (@JaiHindChatting)",
+        f"Powered By: 👑ᵛ͢ᵎᵖ𝄟⏤͟͟͞͞⃝🇮𝐂𝐀𝐃𝐄𝐍◄⏤͟͞❀͢❱ ⃟𝐑𝐀𝐉༽༎͢ (@Caden_OP)",
         (255, 255, 255),
         font=font,
     )
@@ -176,7 +176,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/0f6f8a8a5ad69fe5ecf3d.png"
+        thumb_name = "https://telegra.ph/file/e770c634d5926d9d6319f.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/sankiwarrior")
 
                 ]
             ]
@@ -225,7 +225,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/sankiwarrior")
 
                 ]
             ]
@@ -233,7 +233,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/8fddb775d567de8a63940.jpg"
+            thumb_name = "https://telegra.ph/file/e770c634d5926d9d6319f.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/sankiwarrior")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/sankiwarrior")
 
                 ]
             ]
@@ -348,7 +348,7 @@ async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ\n💞Nøω 🥀 ▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             caption="**💥 𝐂𝐀𝐃𝐄𝐍 🤞 Mʋsɩƈ\n💞Nøω 🥀 ▶️ Ƥɑʋsɘɗ 🌷 ...**"
     )
 
 
@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ\nNøω 🥀 ⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             caption="**💥 𝐂𝐀𝐃𝐄𝐍 🤞 Mʋsɩƈ\nNøω 🥀 ⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
     )
 
 
@@ -374,7 +374,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 ṀṳṠḭḉ 💞\nƝøʈɦɩɳʛ 🔇 🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**💥 𝐂𝐀𝐃𝐄𝐍 🤞 ṀṳṠḭḉ 💞\nƝøʈɦɩɳʛ 🔇 🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -393,7 +393,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption=f'**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ🤞\nNøω 🥀 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             caption=f'**💥 𝐂𝐀𝐃𝐄𝐍 🔈 Mʋsɩƈ🤞\nNøω 🥀 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             caption="**💥 𝐂𝐀𝐃𝐄𝐍🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
-                              caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ🤞\nNøω 🥀🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              caption="**💥 𝐂𝐀𝐃𝐄𝐍 🔊 Mʋsɩƈ🤞\nNøω 🥀🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
