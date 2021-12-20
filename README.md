@@ -25,7 +25,7 @@
 
 # ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
 
-[Repl Link](https://replit.com/@AdityaHalder/PyrogramStringSession) to get pyrogram string session
+[Repl Link](https://replit.com/@levinalab/StringSession#main.py) to get pyrogram string session
 
 
 ### Deploy To Heroku
