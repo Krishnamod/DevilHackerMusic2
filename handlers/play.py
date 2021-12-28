@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/anime_chat_group_vc_play")
+                            url=f"https://t.me/vampire_baap")
 
                 ]
             ]
@@ -225,7 +225,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/anime_chat_group_vc_play")
+                            url=f"https://t.me/vampire_baap")
 
                 ]
             ]
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/anime_chat_group_vc_play")
+                            url=f"https://t.me/vampire_baap")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/anime_chat_group_vc_play")
+                            url=f"https://t.me/vampire_baap")
 
                 ]
             ]
@@ -347,7 +347,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
+                             photo="https://telegra.ph/file/e770c634d5926d9d6319f.jpg", 
                              caption="**💥 𝐂𝐀𝐃𝐄𝐍 🤞 Mʋsɩƈ\n💞Nøω 🥀 ▶️ Ƥɑʋsɘɗ 🌷 ...**"
     )
 
@@ -358,7 +358,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
+                             photo="https://telegra.ph/file/e770c634d5926d9d6319f.jpg", 
                              caption="**💥 𝐂𝐀𝐃𝐄𝐍 🤞 Mʋsɩƈ\nNøω 🥀 ⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
     )
 
@@ -392,7 +392,7 @@ async def skip(_, message: Message):
                 )
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
+                             photo="https://telegra.ph/file/e770c634d5926d9d6319f.jpg", 
                              caption=f'**💥 𝐂𝐀𝐃𝐄𝐍 🔈 Mʋsɩƈ🤞\nNøω 🥀 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
@@ -408,7 +408,7 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
+                             photo="https://telegra.ph/file/e770c634d5926d9d6319f.jpg", 
                              caption="**💥 𝐂𝐀𝐃𝐄𝐍🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -426,6 +426,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+                              photo="https://telegra.ph/file/e770c634d5926d9d6319f.jpg",
                               caption="**💥 𝐂𝐀𝐃𝐄𝐍 🔊 Mʋsɩƈ🤞\nNøω 🥀🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
